@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "f8ed1272",
+   "id": "4c853e91",
    "metadata": {
     "papermill": {
-     "duration": 0.006401,
-     "end_time": "2022-12-08T20:06:39.381766",
+     "duration": 0.007231,
+     "end_time": "2023-01-19T16:00:51.751832",
      "exception": false,
-     "start_time": "2022-12-08T20:06:39.375365",
+     "start_time": "2023-01-19T16:00:51.744601",
      "status": "completed"
     },
     "tags": []
@@ -76,20 +76,20 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "d8a28fae",
+   "id": "f10a7a66",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:39.396359Z",
-     "iopub.status.busy": "2022-12-08T20:06:39.394181Z",
-     "iopub.status.idle": "2022-12-08T20:06:40.948265Z",
-     "shell.execute_reply": "2022-12-08T20:06:40.946070Z"
+     "iopub.execute_input": "2023-01-19T16:00:51.768203Z",
+     "iopub.status.busy": "2023-01-19T16:00:51.765634Z",
+     "iopub.status.idle": "2023-01-19T16:00:53.297232Z",
+     "shell.execute_reply": "2023-01-19T16:00:53.295423Z"
     },
     "papermill": {
-     "duration": 1.564213,
-     "end_time": "2022-12-08T20:06:40.951035",
+     "duration": 1.542861,
+     "end_time": "2023-01-19T16:00:53.300202",
      "exception": false,
-     "start_time": "2022-12-08T20:06:39.386822",
+     "start_time": "2023-01-19T16:00:51.757341",
      "status": "completed"
     },
     "tags": []
@@ -129,13 +129,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ef725c87",
+   "id": "9906e925",
    "metadata": {
     "papermill": {
-     "duration": 0.005233,
-     "end_time": "2022-12-08T20:06:40.962188",
+     "duration": 0.005885,
+     "end_time": "2023-01-19T16:00:53.312250",
      "exception": false,
-     "start_time": "2022-12-08T20:06:40.956955",
+     "start_time": "2023-01-19T16:00:53.306365",
      "status": "completed"
     },
     "tags": []
@@ -148,19 +148,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "0b422ca2",
+   "id": "62d56cfa",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:41.004491Z",
-     "iopub.status.busy": "2022-12-08T20:06:40.974578Z",
-     "iopub.status.idle": "2022-12-08T20:06:41.184107Z",
-     "shell.execute_reply": "2022-12-08T20:06:41.182174Z"
+     "iopub.execute_input": "2023-01-19T16:00:53.357338Z",
+     "iopub.status.busy": "2023-01-19T16:00:53.325854Z",
+     "iopub.status.idle": "2023-01-19T16:00:53.523839Z",
+     "shell.execute_reply": "2023-01-19T16:00:53.521833Z"
     },
     "papermill": {
-     "duration": 0.220011,
-     "end_time": "2022-12-08T20:06:41.187302",
+     "duration": 0.208898,
+     "end_time": "2023-01-19T16:00:53.527048",
      "exception": false,
-     "start_time": "2022-12-08T20:06:40.967291",
+     "start_time": "2023-01-19T16:00:53.318150",
      "status": "completed"
     },
     "tags": []
@@ -179,593 +179,31 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b404d120",
+   "id": "f0643dbf",
    "metadata": {
     "papermill": {
-     "duration": 0.005122,
-     "end_time": "2022-12-08T20:06:41.197628",
+     "duration": 0.005959,
+     "end_time": "2023-01-19T16:00:53.538863",
      "exception": false,
-     "start_time": "2022-12-08T20:06:41.192506",
+     "start_time": "2023-01-19T16:00:53.532904",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "#### I then proceeded to confirm the state of my data after the process of importation."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 3,
-   "id": "4e1245bb",
-   "metadata": {
-    "_kg_hide-output": true,
-    "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:41.211685Z",
-     "iopub.status.busy": "2022-12-08T20:06:41.210096Z",
-     "iopub.status.idle": "2022-12-08T20:06:41.357945Z",
-     "shell.execute_reply": "2022-12-08T20:06:41.356253Z"
-    },
-    "papermill": {
-     "duration": 0.157732,
-     "end_time": "2022-12-08T20:06:41.360482",
-     "exception": false,
-     "start_time": "2022-12-08T20:06:41.202750",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 6 × 15</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>id</th><th scope=col>activitydate</th><th scope=col>totalsteps</th><th scope=col>totaldistance</th><th scope=col>trackerdistance</th><th scope=col>loggedactivitiesdistance</th><th scope=col>veryactivedistance</th><th scope=col>moderatelyactivedistance</th><th scope=col>lightactivedistance</th><th scope=col>sedentaryactivedistance</th><th scope=col>veryactiveminutes</th><th scope=col>fairlyactiveminutes</th><th scope=col>lightlyactiveminutes</th><th scope=col>sedentaryminutes</th><th scope=col>calories</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016</td><td>13162</td><td>8.50</td><td>8.50</td><td>0</td><td>1.88</td><td>0.55</td><td>6.06</td><td>0</td><td>25</td><td>13</td><td>328</td><td> 728</td><td>1985</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016</td><td>10735</td><td>6.97</td><td>6.97</td><td>0</td><td>1.57</td><td>0.69</td><td>4.71</td><td>0</td><td>21</td><td>19</td><td>217</td><td> 776</td><td>1797</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/14/2016</td><td>10460</td><td>6.74</td><td>6.74</td><td>0</td><td>2.44</td><td>0.40</td><td>3.91</td><td>0</td><td>30</td><td>11</td><td>181</td><td>1218</td><td>1776</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/15/2016</td><td> 9762</td><td>6.28</td><td>6.28</td><td>0</td><td>2.14</td><td>1.26</td><td>2.83</td><td>0</td><td>29</td><td>34</td><td>209</td><td> 726</td><td>1745</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/16/2016</td><td>12669</td><td>8.16</td><td>8.16</td><td>0</td><td>2.71</td><td>0.41</td><td>5.04</td><td>0</td><td>36</td><td>10</td><td>221</td><td> 773</td><td>1863</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/17/2016</td><td> 9705</td><td>6.48</td><td>6.48</td><td>0</td><td>3.19</td><td>0.78</td><td>2.51</td><td>0</td><td>38</td><td>20</td><td>164</td><td> 539</td><td>1728</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 6 × 15\n",
-       "\\begin{tabular}{r|lllllllllllllll}\n",
-       "  & id & activitydate & totalsteps & totaldistance & trackerdistance & loggedactivitiesdistance & veryactivedistance & moderatelyactivedistance & lightactivedistance & sedentaryactivedistance & veryactiveminutes & fairlyactiveminutes & lightlyactiveminutes & sedentaryminutes & calories\\\\\n",
-       "  & <dbl> & <chr> & <int> & <dbl> & <dbl> & <dbl> & <dbl> & <dbl> & <dbl> & <dbl> & <int> & <int> & <int> & <int> & <int>\\\\\n",
-       "\\hline\n",
-       "\t1 & 1503960366 & 4/12/2016 & 13162 & 8.50 & 8.50 & 0 & 1.88 & 0.55 & 6.06 & 0 & 25 & 13 & 328 &  728 & 1985\\\\\n",
-       "\t2 & 1503960366 & 4/13/2016 & 10735 & 6.97 & 6.97 & 0 & 1.57 & 0.69 & 4.71 & 0 & 21 & 19 & 217 &  776 & 1797\\\\\n",
-       "\t3 & 1503960366 & 4/14/2016 & 10460 & 6.74 & 6.74 & 0 & 2.44 & 0.40 & 3.91 & 0 & 30 & 11 & 181 & 1218 & 1776\\\\\n",
-       "\t4 & 1503960366 & 4/15/2016 &  9762 & 6.28 & 6.28 & 0 & 2.14 & 1.26 & 2.83 & 0 & 29 & 34 & 209 &  726 & 1745\\\\\n",
-       "\t5 & 1503960366 & 4/16/2016 & 12669 & 8.16 & 8.16 & 0 & 2.71 & 0.41 & 5.04 & 0 & 36 & 10 & 221 &  773 & 1863\\\\\n",
-       "\t6 & 1503960366 & 4/17/2016 &  9705 & 6.48 & 6.48 & 0 & 3.19 & 0.78 & 2.51 & 0 & 38 & 20 & 164 &  539 & 1728\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 6 × 15\n",
-       "\n",
-       "| <!--/--> | id &lt;dbl&gt; | activitydate &lt;chr&gt; | totalsteps &lt;int&gt; | totaldistance &lt;dbl&gt; | trackerdistance &lt;dbl&gt; | loggedactivitiesdistance &lt;dbl&gt; | veryactivedistance &lt;dbl&gt; | moderatelyactivedistance &lt;dbl&gt; | lightactivedistance &lt;dbl&gt; | sedentaryactivedistance &lt;dbl&gt; | veryactiveminutes &lt;int&gt; | fairlyactiveminutes &lt;int&gt; | lightlyactiveminutes &lt;int&gt; | sedentaryminutes &lt;int&gt; | calories &lt;int&gt; |\n",
-       "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n",
-       "| 1 | 1503960366 | 4/12/2016 | 13162 | 8.50 | 8.50 | 0 | 1.88 | 0.55 | 6.06 | 0 | 25 | 13 | 328 |  728 | 1985 |\n",
-       "| 2 | 1503960366 | 4/13/2016 | 10735 | 6.97 | 6.97 | 0 | 1.57 | 0.69 | 4.71 | 0 | 21 | 19 | 217 |  776 | 1797 |\n",
-       "| 3 | 1503960366 | 4/14/2016 | 10460 | 6.74 | 6.74 | 0 | 2.44 | 0.40 | 3.91 | 0 | 30 | 11 | 181 | 1218 | 1776 |\n",
-       "| 4 | 1503960366 | 4/15/2016 |  9762 | 6.28 | 6.28 | 0 | 2.14 | 1.26 | 2.83 | 0 | 29 | 34 | 209 |  726 | 1745 |\n",
-       "| 5 | 1503960366 | 4/16/2016 | 12669 | 8.16 | 8.16 | 0 | 2.71 | 0.41 | 5.04 | 0 | 36 | 10 | 221 |  773 | 1863 |\n",
-       "| 6 | 1503960366 | 4/17/2016 |  9705 | 6.48 | 6.48 | 0 | 3.19 | 0.78 | 2.51 | 0 | 38 | 20 | 164 |  539 | 1728 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  id         activitydate totalsteps totaldistance trackerdistance\n",
-       "1 1503960366 4/12/2016    13162      8.50          8.50           \n",
-       "2 1503960366 4/13/2016    10735      6.97          6.97           \n",
-       "3 1503960366 4/14/2016    10460      6.74          6.74           \n",
-       "4 1503960366 4/15/2016     9762      6.28          6.28           \n",
-       "5 1503960366 4/16/2016    12669      8.16          8.16           \n",
-       "6 1503960366 4/17/2016     9705      6.48          6.48           \n",
-       "  loggedactivitiesdistance veryactivedistance moderatelyactivedistance\n",
-       "1 0                        1.88               0.55                    \n",
-       "2 0                        1.57               0.69                    \n",
-       "3 0                        2.44               0.40                    \n",
-       "4 0                        2.14               1.26                    \n",
-       "5 0                        2.71               0.41                    \n",
-       "6 0                        3.19               0.78                    \n",
-       "  lightactivedistance sedentaryactivedistance veryactiveminutes\n",
-       "1 6.06                0                       25               \n",
-       "2 4.71                0                       21               \n",
-       "3 3.91                0                       30               \n",
-       "4 2.83                0                       29               \n",
-       "5 5.04                0                       36               \n",
-       "6 2.51                0                       38               \n",
-       "  fairlyactiveminutes lightlyactiveminutes sedentaryminutes calories\n",
-       "1 13                  328                   728             1985    \n",
-       "2 19                  217                   776             1797    \n",
-       "3 11                  181                  1218             1776    \n",
-       "4 34                  209                   726             1745    \n",
-       "5 10                  221                   773             1863    \n",
-       "6 20                  164                   539             1728    "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 6 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>id</th><th scope=col>activityday</th><th scope=col>calories</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016</td><td>1985</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016</td><td>1797</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/14/2016</td><td>1776</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/15/2016</td><td>1745</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/16/2016</td><td>1863</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/17/2016</td><td>1728</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 6 × 3\n",
-       "\\begin{tabular}{r|lll}\n",
-       "  & id & activityday & calories\\\\\n",
-       "  & <dbl> & <chr> & <int>\\\\\n",
-       "\\hline\n",
-       "\t1 & 1503960366 & 4/12/2016 & 1985\\\\\n",
-       "\t2 & 1503960366 & 4/13/2016 & 1797\\\\\n",
-       "\t3 & 1503960366 & 4/14/2016 & 1776\\\\\n",
-       "\t4 & 1503960366 & 4/15/2016 & 1745\\\\\n",
-       "\t5 & 1503960366 & 4/16/2016 & 1863\\\\\n",
-       "\t6 & 1503960366 & 4/17/2016 & 1728\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 6 × 3\n",
-       "\n",
-       "| <!--/--> | id &lt;dbl&gt; | activityday &lt;chr&gt; | calories &lt;int&gt; |\n",
-       "|---|---|---|---|\n",
-       "| 1 | 1503960366 | 4/12/2016 | 1985 |\n",
-       "| 2 | 1503960366 | 4/13/2016 | 1797 |\n",
-       "| 3 | 1503960366 | 4/14/2016 | 1776 |\n",
-       "| 4 | 1503960366 | 4/15/2016 | 1745 |\n",
-       "| 5 | 1503960366 | 4/16/2016 | 1863 |\n",
-       "| 6 | 1503960366 | 4/17/2016 | 1728 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  id         activityday calories\n",
-       "1 1503960366 4/12/2016   1985    \n",
-       "2 1503960366 4/13/2016   1797    \n",
-       "3 1503960366 4/14/2016   1776    \n",
-       "4 1503960366 4/15/2016   1745    \n",
-       "5 1503960366 4/16/2016   1863    \n",
-       "6 1503960366 4/17/2016   1728    "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 6 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>id</th><th scope=col>activityday</th><th scope=col>step_total</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016</td><td>13162</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016</td><td>10735</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/14/2016</td><td>10460</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/15/2016</td><td> 9762</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/16/2016</td><td>12669</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/17/2016</td><td> 9705</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 6 × 3\n",
-       "\\begin{tabular}{r|lll}\n",
-       "  & id & activityday & step\\_total\\\\\n",
-       "  & <dbl> & <chr> & <int>\\\\\n",
-       "\\hline\n",
-       "\t1 & 1503960366 & 4/12/2016 & 13162\\\\\n",
-       "\t2 & 1503960366 & 4/13/2016 & 10735\\\\\n",
-       "\t3 & 1503960366 & 4/14/2016 & 10460\\\\\n",
-       "\t4 & 1503960366 & 4/15/2016 &  9762\\\\\n",
-       "\t5 & 1503960366 & 4/16/2016 & 12669\\\\\n",
-       "\t6 & 1503960366 & 4/17/2016 &  9705\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 6 × 3\n",
-       "\n",
-       "| <!--/--> | id &lt;dbl&gt; | activityday &lt;chr&gt; | step_total &lt;int&gt; |\n",
-       "|---|---|---|---|\n",
-       "| 1 | 1503960366 | 4/12/2016 | 13162 |\n",
-       "| 2 | 1503960366 | 4/13/2016 | 10735 |\n",
-       "| 3 | 1503960366 | 4/14/2016 | 10460 |\n",
-       "| 4 | 1503960366 | 4/15/2016 |  9762 |\n",
-       "| 5 | 1503960366 | 4/16/2016 | 12669 |\n",
-       "| 6 | 1503960366 | 4/17/2016 |  9705 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  id         activityday step_total\n",
-       "1 1503960366 4/12/2016   13162     \n",
-       "2 1503960366 4/13/2016   10735     \n",
-       "3 1503960366 4/14/2016   10460     \n",
-       "4 1503960366 4/15/2016    9762     \n",
-       "5 1503960366 4/16/2016   12669     \n",
-       "6 1503960366 4/17/2016    9705     "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 6 × 6</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>id</th><th scope=col>sleepday</th><th scope=col>totalsleeprecords</th><th scope=col>totalminutesasleep</th><th scope=col>totaltimeinBed</th><th scope=col>mins_awake_in_bed</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016</td><td>1</td><td>327</td><td>346</td><td>19</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016</td><td>2</td><td>384</td><td>407</td><td>23</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/15/2016</td><td>1</td><td>412</td><td>442</td><td>30</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/16/2016</td><td>2</td><td>340</td><td>367</td><td>27</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/17/2016</td><td>1</td><td>700</td><td>712</td><td>12</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/19/2016</td><td>1</td><td>304</td><td>320</td><td>16</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 6 × 6\n",
-       "\\begin{tabular}{r|llllll}\n",
-       "  & id & sleepday & totalsleeprecords & totalminutesasleep & totaltimeinBed & mins\\_awake\\_in\\_bed\\\\\n",
-       "  & <dbl> & <chr> & <int> & <int> & <int> & <int>\\\\\n",
-       "\\hline\n",
-       "\t1 & 1503960366 & 4/12/2016 & 1 & 327 & 346 & 19\\\\\n",
-       "\t2 & 1503960366 & 4/13/2016 & 2 & 384 & 407 & 23\\\\\n",
-       "\t3 & 1503960366 & 4/15/2016 & 1 & 412 & 442 & 30\\\\\n",
-       "\t4 & 1503960366 & 4/16/2016 & 2 & 340 & 367 & 27\\\\\n",
-       "\t5 & 1503960366 & 4/17/2016 & 1 & 700 & 712 & 12\\\\\n",
-       "\t6 & 1503960366 & 4/19/2016 & 1 & 304 & 320 & 16\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 6 × 6\n",
-       "\n",
-       "| <!--/--> | id &lt;dbl&gt; | sleepday &lt;chr&gt; | totalsleeprecords &lt;int&gt; | totalminutesasleep &lt;int&gt; | totaltimeinBed &lt;int&gt; | mins_awake_in_bed &lt;int&gt; |\n",
-       "|---|---|---|---|---|---|---|\n",
-       "| 1 | 1503960366 | 4/12/2016 | 1 | 327 | 346 | 19 |\n",
-       "| 2 | 1503960366 | 4/13/2016 | 2 | 384 | 407 | 23 |\n",
-       "| 3 | 1503960366 | 4/15/2016 | 1 | 412 | 442 | 30 |\n",
-       "| 4 | 1503960366 | 4/16/2016 | 2 | 340 | 367 | 27 |\n",
-       "| 5 | 1503960366 | 4/17/2016 | 1 | 700 | 712 | 12 |\n",
-       "| 6 | 1503960366 | 4/19/2016 | 1 | 304 | 320 | 16 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  id         sleepday  totalsleeprecords totalminutesasleep totaltimeinBed\n",
-       "1 1503960366 4/12/2016 1                 327                346           \n",
-       "2 1503960366 4/13/2016 2                 384                407           \n",
-       "3 1503960366 4/15/2016 1                 412                442           \n",
-       "4 1503960366 4/16/2016 2                 340                367           \n",
-       "5 1503960366 4/17/2016 1                 700                712           \n",
-       "6 1503960366 4/19/2016 1                 304                320           \n",
-       "  mins_awake_in_bed\n",
-       "1 19               \n",
-       "2 23               \n",
-       "3 30               \n",
-       "4 27               \n",
-       "5 12               \n",
-       "6 16               "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 6 × 8</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>id</th><th scope=col>date</th><th scope=col>weight_kg</th><th scope=col>weight_pounds</th><th scope=col>fat</th><th scope=col>bmi</th><th scope=col>ismanualreport</th><th scope=col>log_id</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;lgl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>1503960366</td><td>5/2/2016 </td><td> 52.6</td><td>115.9631</td><td>22</td><td>22.65</td><td> TRUE</td><td>1.462234e+12</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>1503960366</td><td>5/3/2016 </td><td> 52.6</td><td>115.9631</td><td>NA</td><td>22.65</td><td> TRUE</td><td>1.462320e+12</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>1927972279</td><td>4/13/2016</td><td>133.5</td><td>294.3171</td><td>NA</td><td>47.54</td><td>FALSE</td><td>1.460510e+12</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>2873212765</td><td>4/21/2016</td><td> 56.7</td><td>125.0021</td><td>NA</td><td>21.45</td><td> TRUE</td><td>1.461283e+12</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>2873212765</td><td>5/12/2016</td><td> 57.3</td><td>126.3249</td><td>NA</td><td>21.69</td><td> TRUE</td><td>1.463098e+12</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>4319703577</td><td>4/17/2016</td><td> 72.4</td><td>159.6147</td><td>25</td><td>27.45</td><td> TRUE</td><td>1.460938e+12</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 6 × 8\n",
-       "\\begin{tabular}{r|llllllll}\n",
-       "  & id & date & weight\\_kg & weight\\_pounds & fat & bmi & ismanualreport & log\\_id\\\\\n",
-       "  & <dbl> & <chr> & <dbl> & <dbl> & <int> & <dbl> & <lgl> & <dbl>\\\\\n",
-       "\\hline\n",
-       "\t1 & 1503960366 & 5/2/2016  &  52.6 & 115.9631 & 22 & 22.65 &  TRUE & 1.462234e+12\\\\\n",
-       "\t2 & 1503960366 & 5/3/2016  &  52.6 & 115.9631 & NA & 22.65 &  TRUE & 1.462320e+12\\\\\n",
-       "\t3 & 1927972279 & 4/13/2016 & 133.5 & 294.3171 & NA & 47.54 & FALSE & 1.460510e+12\\\\\n",
-       "\t4 & 2873212765 & 4/21/2016 &  56.7 & 125.0021 & NA & 21.45 &  TRUE & 1.461283e+12\\\\\n",
-       "\t5 & 2873212765 & 5/12/2016 &  57.3 & 126.3249 & NA & 21.69 &  TRUE & 1.463098e+12\\\\\n",
-       "\t6 & 4319703577 & 4/17/2016 &  72.4 & 159.6147 & 25 & 27.45 &  TRUE & 1.460938e+12\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 6 × 8\n",
-       "\n",
-       "| <!--/--> | id &lt;dbl&gt; | date &lt;chr&gt; | weight_kg &lt;dbl&gt; | weight_pounds &lt;dbl&gt; | fat &lt;int&gt; | bmi &lt;dbl&gt; | ismanualreport &lt;lgl&gt; | log_id &lt;dbl&gt; |\n",
-       "|---|---|---|---|---|---|---|---|---|\n",
-       "| 1 | 1503960366 | 5/2/2016  |  52.6 | 115.9631 | 22 | 22.65 |  TRUE | 1.462234e+12 |\n",
-       "| 2 | 1503960366 | 5/3/2016  |  52.6 | 115.9631 | NA | 22.65 |  TRUE | 1.462320e+12 |\n",
-       "| 3 | 1927972279 | 4/13/2016 | 133.5 | 294.3171 | NA | 47.54 | FALSE | 1.460510e+12 |\n",
-       "| 4 | 2873212765 | 4/21/2016 |  56.7 | 125.0021 | NA | 21.45 |  TRUE | 1.461283e+12 |\n",
-       "| 5 | 2873212765 | 5/12/2016 |  57.3 | 126.3249 | NA | 21.69 |  TRUE | 1.463098e+12 |\n",
-       "| 6 | 4319703577 | 4/17/2016 |  72.4 | 159.6147 | 25 | 27.45 |  TRUE | 1.460938e+12 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  id         date      weight_kg weight_pounds fat bmi   ismanualreport\n",
-       "1 1503960366 5/2/2016   52.6     115.9631      22  22.65  TRUE         \n",
-       "2 1503960366 5/3/2016   52.6     115.9631      NA  22.65  TRUE         \n",
-       "3 1927972279 4/13/2016 133.5     294.3171      NA  47.54 FALSE         \n",
-       "4 2873212765 4/21/2016  56.7     125.0021      NA  21.45  TRUE         \n",
-       "5 2873212765 5/12/2016  57.3     126.3249      NA  21.69  TRUE         \n",
-       "6 4319703577 4/17/2016  72.4     159.6147      25  27.45  TRUE         \n",
-       "  log_id      \n",
-       "1 1.462234e+12\n",
-       "2 1.462320e+12\n",
-       "3 1.460510e+12\n",
-       "4 1.461283e+12\n",
-       "5 1.463098e+12\n",
-       "6 1.460938e+12"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 6 × 10</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>id</th><th scope=col>activityday</th><th scope=col>sedentaryminutes</th><th scope=col>lightlyactiveminutes</th><th scope=col>fairlyactiveminutes</th><th scope=col>veryactiveminutes</th><th scope=col>sedentaryactivedistance</th><th scope=col>lightactivedistance</th><th scope=col>moderatelyactivedistance</th><th scope=col>veryactivedistance</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016</td><td> 728</td><td>328</td><td>13</td><td>25</td><td>0</td><td>6.06</td><td>0.55</td><td>1.88</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/13/2016</td><td> 776</td><td>217</td><td>19</td><td>21</td><td>0</td><td>4.71</td><td>0.69</td><td>1.57</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/14/2016</td><td>1218</td><td>181</td><td>11</td><td>30</td><td>0</td><td>3.91</td><td>0.40</td><td>2.44</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/15/2016</td><td> 726</td><td>209</td><td>34</td><td>29</td><td>0</td><td>2.83</td><td>1.26</td><td>2.14</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/16/2016</td><td> 773</td><td>221</td><td>10</td><td>36</td><td>0</td><td>5.04</td><td>0.41</td><td>2.71</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/17/2016</td><td> 539</td><td>164</td><td>20</td><td>38</td><td>0</td><td>2.51</td><td>0.78</td><td>3.19</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 6 × 10\n",
-       "\\begin{tabular}{r|llllllllll}\n",
-       "  & id & activityday & sedentaryminutes & lightlyactiveminutes & fairlyactiveminutes & veryactiveminutes & sedentaryactivedistance & lightactivedistance & moderatelyactivedistance & veryactivedistance\\\\\n",
-       "  & <dbl> & <chr> & <int> & <int> & <int> & <int> & <dbl> & <dbl> & <dbl> & <dbl>\\\\\n",
-       "\\hline\n",
-       "\t1 & 1503960366 & 4/12/2016 &  728 & 328 & 13 & 25 & 0 & 6.06 & 0.55 & 1.88\\\\\n",
-       "\t2 & 1503960366 & 4/13/2016 &  776 & 217 & 19 & 21 & 0 & 4.71 & 0.69 & 1.57\\\\\n",
-       "\t3 & 1503960366 & 4/14/2016 & 1218 & 181 & 11 & 30 & 0 & 3.91 & 0.40 & 2.44\\\\\n",
-       "\t4 & 1503960366 & 4/15/2016 &  726 & 209 & 34 & 29 & 0 & 2.83 & 1.26 & 2.14\\\\\n",
-       "\t5 & 1503960366 & 4/16/2016 &  773 & 221 & 10 & 36 & 0 & 5.04 & 0.41 & 2.71\\\\\n",
-       "\t6 & 1503960366 & 4/17/2016 &  539 & 164 & 20 & 38 & 0 & 2.51 & 0.78 & 3.19\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 6 × 10\n",
-       "\n",
-       "| <!--/--> | id &lt;dbl&gt; | activityday &lt;chr&gt; | sedentaryminutes &lt;int&gt; | lightlyactiveminutes &lt;int&gt; | fairlyactiveminutes &lt;int&gt; | veryactiveminutes &lt;int&gt; | sedentaryactivedistance &lt;dbl&gt; | lightactivedistance &lt;dbl&gt; | moderatelyactivedistance &lt;dbl&gt; | veryactivedistance &lt;dbl&gt; |\n",
-       "|---|---|---|---|---|---|---|---|---|---|---|\n",
-       "| 1 | 1503960366 | 4/12/2016 |  728 | 328 | 13 | 25 | 0 | 6.06 | 0.55 | 1.88 |\n",
-       "| 2 | 1503960366 | 4/13/2016 |  776 | 217 | 19 | 21 | 0 | 4.71 | 0.69 | 1.57 |\n",
-       "| 3 | 1503960366 | 4/14/2016 | 1218 | 181 | 11 | 30 | 0 | 3.91 | 0.40 | 2.44 |\n",
-       "| 4 | 1503960366 | 4/15/2016 |  726 | 209 | 34 | 29 | 0 | 2.83 | 1.26 | 2.14 |\n",
-       "| 5 | 1503960366 | 4/16/2016 |  773 | 221 | 10 | 36 | 0 | 5.04 | 0.41 | 2.71 |\n",
-       "| 6 | 1503960366 | 4/17/2016 |  539 | 164 | 20 | 38 | 0 | 2.51 | 0.78 | 3.19 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  id         activityday sedentaryminutes lightlyactiveminutes\n",
-       "1 1503960366 4/12/2016    728             328                 \n",
-       "2 1503960366 4/13/2016    776             217                 \n",
-       "3 1503960366 4/14/2016   1218             181                 \n",
-       "4 1503960366 4/15/2016    726             209                 \n",
-       "5 1503960366 4/16/2016    773             221                 \n",
-       "6 1503960366 4/17/2016    539             164                 \n",
-       "  fairlyactiveminutes veryactiveminutes sedentaryactivedistance\n",
-       "1 13                  25                0                      \n",
-       "2 19                  21                0                      \n",
-       "3 11                  30                0                      \n",
-       "4 34                  29                0                      \n",
-       "5 10                  36                0                      \n",
-       "6 20                  38                0                      \n",
-       "  lightactivedistance moderatelyactivedistance veryactivedistance\n",
-       "1 6.06                0.55                     1.88              \n",
-       "2 4.71                0.69                     1.57              \n",
-       "3 3.91                0.40                     2.44              \n",
-       "4 2.83                1.26                     2.14              \n",
-       "5 5.04                0.41                     2.71              \n",
-       "6 2.51                0.78                     3.19              "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 6 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>Id</th><th scope=col>ActivityHour</th><th scope=col>StepTotal</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016 12:00:00 AM</td><td>373</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/12/2016 1:00:00 AM </td><td>160</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/12/2016 2:00:00 AM </td><td>151</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/12/2016 3:00:00 AM </td><td>  0</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/12/2016 4:00:00 AM </td><td>  0</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/12/2016 5:00:00 AM </td><td>  0</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 6 × 3\n",
-       "\\begin{tabular}{r|lll}\n",
-       "  & Id & ActivityHour & StepTotal\\\\\n",
-       "  & <dbl> & <chr> & <int>\\\\\n",
-       "\\hline\n",
-       "\t1 & 1503960366 & 4/12/2016 12:00:00 AM & 373\\\\\n",
-       "\t2 & 1503960366 & 4/12/2016 1:00:00 AM  & 160\\\\\n",
-       "\t3 & 1503960366 & 4/12/2016 2:00:00 AM  & 151\\\\\n",
-       "\t4 & 1503960366 & 4/12/2016 3:00:00 AM  &   0\\\\\n",
-       "\t5 & 1503960366 & 4/12/2016 4:00:00 AM  &   0\\\\\n",
-       "\t6 & 1503960366 & 4/12/2016 5:00:00 AM  &   0\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 6 × 3\n",
-       "\n",
-       "| <!--/--> | Id &lt;dbl&gt; | ActivityHour &lt;chr&gt; | StepTotal &lt;int&gt; |\n",
-       "|---|---|---|---|\n",
-       "| 1 | 1503960366 | 4/12/2016 12:00:00 AM | 373 |\n",
-       "| 2 | 1503960366 | 4/12/2016 1:00:00 AM  | 160 |\n",
-       "| 3 | 1503960366 | 4/12/2016 2:00:00 AM  | 151 |\n",
-       "| 4 | 1503960366 | 4/12/2016 3:00:00 AM  |   0 |\n",
-       "| 5 | 1503960366 | 4/12/2016 4:00:00 AM  |   0 |\n",
-       "| 6 | 1503960366 | 4/12/2016 5:00:00 AM  |   0 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  Id         ActivityHour          StepTotal\n",
-       "1 1503960366 4/12/2016 12:00:00 AM 373      \n",
-       "2 1503960366 4/12/2016 1:00:00 AM  160      \n",
-       "3 1503960366 4/12/2016 2:00:00 AM  151      \n",
-       "4 1503960366 4/12/2016 3:00:00 AM    0      \n",
-       "5 1503960366 4/12/2016 4:00:00 AM    0      \n",
-       "6 1503960366 4/12/2016 5:00:00 AM    0      "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 6 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>Id</th><th scope=col>ActivityHour</th><th scope=col>Calories</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>1503960366</td><td>4/12/2016 12:00:00 AM</td><td>81</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>1503960366</td><td>4/12/2016 1:00:00 AM </td><td>61</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>1503960366</td><td>4/12/2016 2:00:00 AM </td><td>59</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>1503960366</td><td>4/12/2016 3:00:00 AM </td><td>47</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>1503960366</td><td>4/12/2016 4:00:00 AM </td><td>48</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>1503960366</td><td>4/12/2016 5:00:00 AM </td><td>48</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 6 × 3\n",
-       "\\begin{tabular}{r|lll}\n",
-       "  & Id & ActivityHour & Calories\\\\\n",
-       "  & <dbl> & <chr> & <int>\\\\\n",
-       "\\hline\n",
-       "\t1 & 1503960366 & 4/12/2016 12:00:00 AM & 81\\\\\n",
-       "\t2 & 1503960366 & 4/12/2016 1:00:00 AM  & 61\\\\\n",
-       "\t3 & 1503960366 & 4/12/2016 2:00:00 AM  & 59\\\\\n",
-       "\t4 & 1503960366 & 4/12/2016 3:00:00 AM  & 47\\\\\n",
-       "\t5 & 1503960366 & 4/12/2016 4:00:00 AM  & 48\\\\\n",
-       "\t6 & 1503960366 & 4/12/2016 5:00:00 AM  & 48\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 6 × 3\n",
-       "\n",
-       "| <!--/--> | Id &lt;dbl&gt; | ActivityHour &lt;chr&gt; | Calories &lt;int&gt; |\n",
-       "|---|---|---|---|\n",
-       "| 1 | 1503960366 | 4/12/2016 12:00:00 AM | 81 |\n",
-       "| 2 | 1503960366 | 4/12/2016 1:00:00 AM  | 61 |\n",
-       "| 3 | 1503960366 | 4/12/2016 2:00:00 AM  | 59 |\n",
-       "| 4 | 1503960366 | 4/12/2016 3:00:00 AM  | 47 |\n",
-       "| 5 | 1503960366 | 4/12/2016 4:00:00 AM  | 48 |\n",
-       "| 6 | 1503960366 | 4/12/2016 5:00:00 AM  | 48 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  Id         ActivityHour          Calories\n",
-       "1 1503960366 4/12/2016 12:00:00 AM 81      \n",
-       "2 1503960366 4/12/2016 1:00:00 AM  61      \n",
-       "3 1503960366 4/12/2016 2:00:00 AM  59      \n",
-       "4 1503960366 4/12/2016 3:00:00 AM  47      \n",
-       "5 1503960366 4/12/2016 4:00:00 AM  48      \n",
-       "6 1503960366 4/12/2016 5:00:00 AM  48      "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
-   "source": [
-    "head(daily_activity)\n",
-    "head(daily_calories)\n",
-    "head(daily_steps)\n",
-    "head(sleep_day)\n",
-    "head(weight_loginfo)\n",
-    "head(daily_intensities)\n",
-    "head(hourly_steps)\n",
-    "head(hourly_calories)"
+    "#### I then proceeded to confirm the state of my data after the process of importation.\n",
+    "After impotation,I check the first 6 observations with the head function and confirm the various data types and a glimpse of the dataframes...the code is not documented as part of the report. After confirming, I carry on with data cleaning."
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "a33949d5",
+   "id": "998ca903",
    "metadata": {
     "papermill": {
-     "duration": 0.006904,
-     "end_time": "2022-12-08T20:06:41.374488",
+     "duration": 0.005957,
+     "end_time": "2023-01-19T16:00:53.550714",
      "exception": false,
-     "start_time": "2022-12-08T20:06:41.367584",
+     "start_time": "2023-01-19T16:00:53.544757",
      "status": "completed"
     },
     "tags": []
@@ -778,21 +216,21 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
-   "id": "27ddd24e",
+   "execution_count": 3,
+   "id": "5654d098",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:41.391875Z",
-     "iopub.status.busy": "2022-12-08T20:06:41.390326Z",
-     "iopub.status.idle": "2022-12-08T20:06:42.307828Z",
-     "shell.execute_reply": "2022-12-08T20:06:42.306082Z"
+     "iopub.execute_input": "2023-01-19T16:00:53.567515Z",
+     "iopub.status.busy": "2023-01-19T16:00:53.565755Z",
+     "iopub.status.idle": "2023-01-19T16:00:54.538417Z",
+     "shell.execute_reply": "2023-01-19T16:00:54.536715Z"
     },
     "papermill": {
-     "duration": 0.929019,
-     "end_time": "2022-12-08T20:06:42.310298",
+     "duration": 0.982965,
+     "end_time": "2023-01-19T16:00:54.540767",
      "exception": false,
-     "start_time": "2022-12-08T20:06:41.381279",
+     "start_time": "2023-01-19T16:00:53.557802",
      "status": "completed"
     },
     "tags": []
@@ -1395,13 +833,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a834707d",
+   "id": "8ab57c8c",
    "metadata": {
     "papermill": {
-     "duration": 0.009233,
-     "end_time": "2022-12-08T20:06:42.328790",
+     "duration": 0.008907,
+     "end_time": "2023-01-19T16:00:54.557720",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.319557",
+     "start_time": "2023-01-19T16:00:54.548813",
      "status": "completed"
     },
     "tags": []
@@ -1413,21 +851,21 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
-   "id": "54abf365",
+   "execution_count": 4,
+   "id": "7c7b3087",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:42.350987Z",
-     "iopub.status.busy": "2022-12-08T20:06:42.349182Z",
-     "iopub.status.idle": "2022-12-08T20:06:42.395919Z",
-     "shell.execute_reply": "2022-12-08T20:06:42.394050Z"
+     "iopub.execute_input": "2023-01-19T16:00:54.577714Z",
+     "iopub.status.busy": "2023-01-19T16:00:54.575960Z",
+     "iopub.status.idle": "2023-01-19T16:00:54.618618Z",
+     "shell.execute_reply": "2023-01-19T16:00:54.616990Z"
     },
     "papermill": {
-     "duration": 0.060768,
-     "end_time": "2022-12-08T20:06:42.398447",
+     "duration": 0.055084,
+     "end_time": "2023-01-19T16:00:54.621003",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.337679",
+     "start_time": "2023-01-19T16:00:54.565919",
      "status": "completed"
     },
     "tags": []
@@ -1554,21 +992,21 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
-   "id": "224c9770",
+   "execution_count": 5,
+   "id": "030ecac9",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:42.427668Z",
-     "iopub.status.busy": "2022-12-08T20:06:42.426007Z",
-     "iopub.status.idle": "2022-12-08T20:06:42.522310Z",
-     "shell.execute_reply": "2022-12-08T20:06:42.520585Z"
+     "iopub.execute_input": "2023-01-19T16:00:54.641728Z",
+     "iopub.status.busy": "2023-01-19T16:00:54.640194Z",
+     "iopub.status.idle": "2023-01-19T16:00:54.734657Z",
+     "shell.execute_reply": "2023-01-19T16:00:54.732966Z"
     },
     "papermill": {
-     "duration": 0.116767,
-     "end_time": "2022-12-08T20:06:42.524805",
+     "duration": 0.10738,
+     "end_time": "2023-01-19T16:00:54.736953",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.408038",
+     "start_time": "2023-01-19T16:00:54.629573",
      "status": "completed"
     },
     "tags": []
@@ -1713,13 +1151,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fdab2b07",
+   "id": "647e3ebf",
    "metadata": {
     "papermill": {
-     "duration": 0.011235,
-     "end_time": "2022-12-08T20:06:42.547088",
+     "duration": 0.00924,
+     "end_time": "2023-01-19T16:00:54.755289",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.535853",
+     "start_time": "2023-01-19T16:00:54.746049",
      "status": "completed"
     },
     "tags": []
@@ -1737,13 +1175,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "72f1cd95",
+   "id": "29b42071",
    "metadata": {
     "papermill": {
-     "duration": 0.010655,
-     "end_time": "2022-12-08T20:06:42.568470",
+     "duration": 0.01449,
+     "end_time": "2023-01-19T16:00:54.778690",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.557815",
+     "start_time": "2023-01-19T16:00:54.764200",
      "status": "completed"
     },
     "tags": []
@@ -1758,21 +1196,21 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
-   "id": "a8f0d5c6",
+   "execution_count": 6,
+   "id": "7c930469",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:42.592626Z",
-     "iopub.status.busy": "2022-12-08T20:06:42.590995Z",
-     "iopub.status.idle": "2022-12-08T20:06:42.680258Z",
-     "shell.execute_reply": "2022-12-08T20:06:42.678559Z"
+     "iopub.execute_input": "2023-01-19T16:00:54.801104Z",
+     "iopub.status.busy": "2023-01-19T16:00:54.799459Z",
+     "iopub.status.idle": "2023-01-19T16:00:54.885947Z",
+     "shell.execute_reply": "2023-01-19T16:00:54.884114Z"
     },
     "papermill": {
-     "duration": 0.10435,
-     "end_time": "2022-12-08T20:06:42.682938",
+     "duration": 0.09988,
+     "end_time": "2023-01-19T16:00:54.888187",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.578588",
+     "start_time": "2023-01-19T16:00:54.788307",
      "status": "completed"
     },
     "tags": []
@@ -2008,13 +1446,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "8dc0f08b",
+   "id": "af896c3b",
    "metadata": {
     "papermill": {
-     "duration": 0.011378,
-     "end_time": "2022-12-08T20:06:42.705650",
+     "duration": 0.009999,
+     "end_time": "2023-01-19T16:00:54.908753",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.694272",
+     "start_time": "2023-01-19T16:00:54.898754",
      "status": "completed"
     },
     "tags": []
@@ -2026,21 +1464,21 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
-   "id": "1f4165dd",
+   "execution_count": 7,
+   "id": "17ba5888",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:42.732036Z",
-     "iopub.status.busy": "2022-12-08T20:06:42.730195Z",
-     "iopub.status.idle": "2022-12-08T20:06:42.796328Z",
-     "shell.execute_reply": "2022-12-08T20:06:42.794482Z"
+     "iopub.execute_input": "2023-01-19T16:00:54.932763Z",
+     "iopub.status.busy": "2023-01-19T16:00:54.931091Z",
+     "iopub.status.idle": "2023-01-19T16:00:55.002333Z",
+     "shell.execute_reply": "2023-01-19T16:00:55.000434Z"
     },
     "papermill": {
-     "duration": 0.089931,
-     "end_time": "2022-12-08T20:06:42.807221",
+     "duration": 0.085436,
+     "end_time": "2023-01-19T16:00:55.004633",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.717290",
+     "start_time": "2023-01-19T16:00:54.919197",
      "status": "completed"
     },
     "tags": []
@@ -2189,13 +1627,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5cae52bb",
+   "id": "01cf8193",
    "metadata": {
     "papermill": {
-     "duration": 0.011594,
-     "end_time": "2022-12-08T20:06:42.830487",
+     "duration": 0.01062,
+     "end_time": "2023-01-19T16:00:55.025609",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.818893",
+     "start_time": "2023-01-19T16:00:55.014989",
      "status": "completed"
     },
     "tags": []
@@ -2208,21 +1646,21 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
-   "id": "ea9b4394",
+   "execution_count": 8,
+   "id": "826b865e",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:42.857940Z",
-     "iopub.status.busy": "2022-12-08T20:06:42.856217Z",
-     "iopub.status.idle": "2022-12-08T20:06:42.889464Z",
-     "shell.execute_reply": "2022-12-08T20:06:42.887633Z"
+     "iopub.execute_input": "2023-01-19T16:00:55.050037Z",
+     "iopub.status.busy": "2023-01-19T16:00:55.048316Z",
+     "iopub.status.idle": "2023-01-19T16:00:55.081723Z",
+     "shell.execute_reply": "2023-01-19T16:00:55.079860Z"
     },
     "papermill": {
-     "duration": 0.049637,
-     "end_time": "2022-12-08T20:06:42.891951",
+     "duration": 0.048067,
+     "end_time": "2023-01-19T16:00:55.084199",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.842314",
+     "start_time": "2023-01-19T16:00:55.036132",
      "status": "completed"
     },
     "tags": []
@@ -2297,6 +1735,7 @@
     }
    ],
    "source": [
+    "#Using the mutate function,I go ahead to create a new variable to distribute users by steps\n",
     "activeness_of_user <- average_of_activities %>%\n",
     "  mutate(user_type_steps = case_when(\n",
     "    daily_steps_average < 3000 ~ \"sedentary\",\n",
@@ -2313,13 +1752,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6343ded8",
+   "id": "bd8a8e4c",
    "metadata": {
     "papermill": {
-     "duration": 0.011563,
-     "end_time": "2022-12-08T20:06:42.916009",
+     "duration": 0.010631,
+     "end_time": "2023-01-19T16:00:55.105501",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.904446",
+     "start_time": "2023-01-19T16:00:55.094870",
      "status": "completed"
     },
     "tags": []
@@ -2330,20 +1769,21 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
-   "id": "c2696836",
+   "execution_count": 9,
+   "id": "e81ee719",
    "metadata": {
+    "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:42.942983Z",
-     "iopub.status.busy": "2022-12-08T20:06:42.941454Z",
-     "iopub.status.idle": "2022-12-08T20:06:46.217617Z",
-     "shell.execute_reply": "2022-12-08T20:06:46.215691Z"
+     "iopub.execute_input": "2023-01-19T16:00:55.130519Z",
+     "iopub.status.busy": "2023-01-19T16:00:55.128762Z",
+     "iopub.status.idle": "2023-01-19T16:00:58.400895Z",
+     "shell.execute_reply": "2023-01-19T16:00:58.399031Z"
     },
     "papermill": {
-     "duration": 3.293655,
-     "end_time": "2022-12-08T20:06:46.221527",
+     "duration": 3.288236,
+     "end_time": "2023-01-19T16:00:58.404501",
      "exception": false,
-     "start_time": "2022-12-08T20:06:42.927872",
+     "start_time": "2023-01-19T16:00:55.116265",
      "status": "completed"
     },
     "tags": []
@@ -2445,31 +1885,33 @@
     }
    ],
    "source": [
+    "#I use the ggplot2 package to make multi variant analysis of continuous variables using scatter plots\n",
+    "#Total Steps vs.Total Distance\n",
     "ggplot(data=daily_activity_and_sleep, aes(x= totalsteps, y= totaldistance)) + \n",
     "  geom_point() + geom_smooth() + labs(title=\"Total Steps vs.Total Distance\")\n",
-    "\n",
+    "#Total Steps vs. Calories\n",
     "ggplot(data=daily_activity_and_sleep, aes(x= totalsteps, y= calories)) + \n",
     "  geom_point() + geom_smooth() + labs(title=\"Total Steps vs. Calories\")\n",
-    "\n",
+    "#Sedentary Minutes vs. Calories\n",
     "ggplot(data= daily_activity_and_sleep, aes(x= sedentaryminutes, y= calories)) + \n",
     "  geom_point() + geom_smooth() + labs(title=\"Sedentary Minutes vs. Calories\")\n",
-    "\n",
+    "#Total Minutes Asleep vs. Total Steps\n",
     "ggplot(data = daily_steps_and_sleep, aes(x= totalminutesasleep, y = step_total)) + \n",
     "  geom_point() + geom_smooth() + labs(title=\"Total Minutes Asleep vs. Total Steps\")\n",
-    "\n",
+    "#Total Minutes Asleep vs. Calories\n",
     "ggplot(data= daily_activity_and_sleep, aes(x= totalminutesasleep, y= calories)) + \n",
     "  geom_point() + geom_smooth() + labs(title=\"Total Minutes Asleep vs. Calories\")\n"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "a7c71f73",
+   "id": "cb9f5344",
    "metadata": {
     "papermill": {
-     "duration": 0.023413,
-     "end_time": "2022-12-08T20:06:46.268183",
+     "duration": 0.021922,
+     "end_time": "2023-01-19T16:00:58.449597",
      "exception": false,
-     "start_time": "2022-12-08T20:06:46.244770",
+     "start_time": "2023-01-19T16:00:58.427675",
      "status": "completed"
     },
     "tags": []
@@ -2489,20 +1931,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
-   "id": "692b2aa2",
+   "execution_count": 10,
+   "id": "f2b7227f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2022-12-08T20:06:46.314960Z",
-     "iopub.status.busy": "2022-12-08T20:06:46.313258Z",
-     "iopub.status.idle": "2022-12-08T20:06:46.986749Z",
-     "shell.execute_reply": "2022-12-08T20:06:46.983725Z"
+     "iopub.execute_input": "2023-01-19T16:00:58.493776Z",
+     "iopub.status.busy": "2023-01-19T16:00:58.492247Z",
+     "iopub.status.idle": "2023-01-19T16:00:59.134630Z",
+     "shell.execute_reply": "2023-01-19T16:00:59.132945Z"
     },
     "papermill": {
-     "duration": 0.700602,
-     "end_time": "2022-12-08T20:06:46.990087",
+     "duration": 0.667827,
+     "end_time": "2023-01-19T16:00:59.137795",
      "exception": false,
-     "start_time": "2022-12-08T20:06:46.289485",
+     "start_time": "2023-01-19T16:00:58.469968",
      "status": "completed"
     },
     "tags": []
@@ -2586,7 +2028,7 @@
     }
    ],
    "source": [
-    "# I would be exploring teh distribution of users to the total by the level of activeness\n",
+    "# I would be exploring the distribution of users to the total by the level of activeness\n",
     "activeness_of_user %>%\n",
     "group_by(user_type_steps) %>%\n",
     "summarise(total = n()) %>%\n",
@@ -2614,6 +2056,259 @@
     "\n",
     "\n"
    ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "90f3d39e",
+   "metadata": {
+    "papermill": {
+     "duration": 0.023512,
+     "end_time": "2023-01-19T16:00:59.184804",
+     "exception": false,
+     "start_time": "2023-01-19T16:00:59.161292",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Inferences from Visualization\n",
+    "* We can see majority of our users are fairly active users and the minority are sedentary users\n",
+    "* The daily calories has an increase in range the more active the users are, and there is one unusual user(sedentary) that defies this claim(this implies;there is more to that value;probably some days with more activity than user).\n",
+    "* There is an outlier user(lightly active) who has a daily average of about 3200"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "63e7e38d",
+   "metadata": {
+    "papermill": {
+     "duration": 0.022767,
+     "end_time": "2023-01-19T16:00:59.229805",
+     "exception": false,
+     "start_time": "2023-01-19T16:00:59.207038",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "### Further Analysis\n",
+    "I would now go ahead to make analysis on the hourly basis to get more information from the data,for this analysis;I would be using the total steps per hour and total calories per hour data."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "e417f771",
+   "metadata": {
+    "_kg_hide-output": true,
+    "execution": {
+     "iopub.execute_input": "2023-01-19T16:00:59.278598Z",
+     "iopub.status.busy": "2023-01-19T16:00:59.277100Z",
+     "iopub.status.idle": "2023-01-19T16:01:00.053211Z",
+     "shell.execute_reply": "2023-01-19T16:01:00.051565Z"
+    },
+    "papermill": {
+     "duration": 0.80401,
+     "end_time": "2023-01-19T16:01:00.056006",
+     "exception": false,
+     "start_time": "2023-01-19T16:00:59.251996",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 6 × 6</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>Id</th><th scope=col>date</th><th scope=col>hour</th><th scope=col>pm</th><th scope=col>calories</th><th scope=col>hours</th></tr>\n",
+       "\t<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;chr&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>1503960366</td><td>4/12/2016</td><td>12:00:00</td><td>AM</td><td>81</td><td>12:00:00 AM</td></tr>\n",
+       "\t<tr><td>1503960366</td><td>4/12/2016</td><td>1:00:00 </td><td>AM</td><td>61</td><td>1:00:00 AM </td></tr>\n",
+       "\t<tr><td>1503960366</td><td>4/12/2016</td><td>2:00:00 </td><td>AM</td><td>59</td><td>2:00:00 AM </td></tr>\n",
+       "\t<tr><td>1503960366</td><td>4/12/2016</td><td>3:00:00 </td><td>AM</td><td>47</td><td>3:00:00 AM </td></tr>\n",
+       "\t<tr><td>1503960366</td><td>4/12/2016</td><td>4:00:00 </td><td>AM</td><td>48</td><td>4:00:00 AM </td></tr>\n",
+       "\t<tr><td>1503960366</td><td>4/12/2016</td><td>5:00:00 </td><td>AM</td><td>48</td><td>5:00:00 AM </td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 6 × 6\n",
+       "\\begin{tabular}{llllll}\n",
+       " Id & date & hour & pm & calories & hours\\\\\n",
+       " <dbl> & <chr> & <chr> & <chr> & <int> & <chr>\\\\\n",
+       "\\hline\n",
+       "\t 1503960366 & 4/12/2016 & 12:00:00 & AM & 81 & 12:00:00 AM\\\\\n",
+       "\t 1503960366 & 4/12/2016 & 1:00:00  & AM & 61 & 1:00:00 AM \\\\\n",
+       "\t 1503960366 & 4/12/2016 & 2:00:00  & AM & 59 & 2:00:00 AM \\\\\n",
+       "\t 1503960366 & 4/12/2016 & 3:00:00  & AM & 47 & 3:00:00 AM \\\\\n",
+       "\t 1503960366 & 4/12/2016 & 4:00:00  & AM & 48 & 4:00:00 AM \\\\\n",
+       "\t 1503960366 & 4/12/2016 & 5:00:00  & AM & 48 & 5:00:00 AM \\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 6 × 6\n",
+       "\n",
+       "| Id &lt;dbl&gt; | date &lt;chr&gt; | hour &lt;chr&gt; | pm &lt;chr&gt; | calories &lt;int&gt; | hours &lt;chr&gt; |\n",
+       "|---|---|---|---|---|---|\n",
+       "| 1503960366 | 4/12/2016 | 12:00:00 | AM | 81 | 12:00:00 AM |\n",
+       "| 1503960366 | 4/12/2016 | 1:00:00  | AM | 61 | 1:00:00 AM  |\n",
+       "| 1503960366 | 4/12/2016 | 2:00:00  | AM | 59 | 2:00:00 AM  |\n",
+       "| 1503960366 | 4/12/2016 | 3:00:00  | AM | 47 | 3:00:00 AM  |\n",
+       "| 1503960366 | 4/12/2016 | 4:00:00  | AM | 48 | 4:00:00 AM  |\n",
+       "| 1503960366 | 4/12/2016 | 5:00:00  | AM | 48 | 5:00:00 AM  |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  Id         date      hour     pm calories hours      \n",
+       "1 1503960366 4/12/2016 12:00:00 AM 81       12:00:00 AM\n",
+       "2 1503960366 4/12/2016 1:00:00  AM 61       1:00:00 AM \n",
+       "3 1503960366 4/12/2016 2:00:00  AM 59       2:00:00 AM \n",
+       "4 1503960366 4/12/2016 3:00:00  AM 47       3:00:00 AM \n",
+       "5 1503960366 4/12/2016 4:00:00  AM 48       4:00:00 AM \n",
+       "6 1503960366 4/12/2016 5:00:00  AM 48       5:00:00 AM "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "image/png": "iVBORw0KGgoAAAANSUhEUgAAA0gAAANICAIAAAByhViMAAAABmJLR0QA/wD/AP+gvaeTAAAg\nAElEQVR4nOzdd3xT9f7H8c9J0oymE1o2gmwEZSPDqiwRNw4EpYAM5ToQBBUHAjJEr4KgCF5w\n8BPcIg6Qq3AVFVAcuBgqAiKIrNJB26Rpkt8fKWkpkKanp2349vV89I+ekc/5npMv6ZvvGdH8\nfr8AAADgzGeq7AYAAADAGAQ7AAAARRDsAAAAFEGwAwAAUATBDgAAQBEEOwAAAEUQ7AAAABRB\nsAMAAFCEOsHOdXSVpmkWW53TrbCmXwNN0zo9/lOFNemnxztpmtbrvd0VtsXI9PuSCzVNu3DJ\n75XdkJKdKU2tlHbOaZyoadqqo66K3CgAoFTUCXZVk9+XvX79+q+//auyG1IoApsUscI8VhxS\nAECYCHZntvzc3y644IJLrltU2Q0pFIFNilhhHisOKQAgTAQ7AAAARRDsyoHffdDjq+xGlIIv\nz+X1V3YjijnTjiEAAJGgigc737qlj1114XnJCTFWZ/zZrbvdPnnR325v0TU2/uscTdOu23ak\n6Ey/N0PTNGfyDYHJ7c931zTtzj/Sj/25amDKOTHW6FcO5hRdf/e7l2ma1vCqlcU2v+257pqm\ntRj+WYgmpv2ycsygS5vUrm6LssZXr5dyxS2vf/1PYNHrLZOsMe1FJHPPNE3Tqjd/KfiqP798\nddg1F9etkWiLTmh6bqfbpy7ckZNftOxddWOjHI09WVvGXd01PtoZZbYk1qzfd9Cda3/PDHPr\npxSiSSKS9ccnI/tfWLN6XJTd2fDc7g8+99/gopDHsIS3KZz36DjvR/MfuLD12bE2e436LYfd\nvzjXJ62c1tjao4rtSIimhtOkcFoV+liV/ZAGldgZTubzHFw06bZOzerH2GxJdRpdO+qhn9Pz\nTl7N78149akJvTqfUz3eabE6kus363fzmP9uzwgsLUu3BwDo5FdFbtpKETFba59uhU8uPUtE\nOs76MThnbmobEdE0rWajcy/s2jExyiwi8U2u2pLtCa6zYXRLEbl26+GipXz56SISnXR9YHLb\nwm4iMvL7/7aNszpqNut92ZXvHcn1+/0/zuooIj1X7PJkb3GYtKjolrneE5p0a50YEZm/L+t0\nbT703ewEi0lEqjVqdcFFF5zTMF5ETOaYeVvT/H7/D7MfvW/8LSJii+s+ceLER5/6NvCqjXOG\nmDVN07SaDc/pfn6bJKdFRJx1e649kBOsfGedGLO19pBmCSJiiU5u065FjMUkImZrjWc2HQxn\n66d0yib99nKKiLS+f1JdmzmmTtPeV16d0v6sQPe7Yu4voY9hOG9TOO9RwPwhrUVEM9mbteva\non41Eal78e31bZaYWiMDK4TT1HCaFE6rTvf2GXVIw+8MxeS7dt/YMjG4gy3qxouIvVr3oTWd\nIrIyLff4vmSO6lxDREyWhDYdu17UrVPDRFvg3+D7h3L8fr/ubg8A0E21YKdplhancZYzqmiw\n2/XOYBGxxXd676eCP715Wb/dc3FtEWlwxZJg2fCDXY2zY3o+8GqO1xdcLRjs/H7/Ey2ricjE\nXwsjUc6ht0UkOnlAiJ2a0CBORFIXbTg+w/vBQ+eLSI32iwvafOx7EYk7a1LwJRk7n7OZNGvM\nuf9Zs6PgNZ7DC+7sIiLxTW4N/oW9s06MiGiaadjTq9w+v9/v97oPL7izm4jY4i9I8/jC2fop\nndykQAoRkW7jl7qPH55NL9wUzjEM520KM9j99dGtIhLf+MYfjrgKGrbq8VizSUSKBbvQTTWw\n55x8rAw8pP6wO0MxKwY3FZH4xv3X7cooOHRfvdoyOiqwxWCw2/fpDSISe9b129Ncx/cu6/lb\nmonIuRM2Bebo6/YAAN1UC3YlCga7kXViRGTc+n+KFvHkbKtjM2sm+w/H8gJzwg920ck3FvtL\nWTTY7Vp+qYg0HvBJcOl3k9qKSOd//xRip5o6okTk99zCcaC8Y5unTJky88kVxyeL/8l/6YLa\nInL7Z3+fUMjnSa3pFJGF+48FZgSCXf1LXzxxg947G8WLyI1r94az9VM6XQpxVL/a7Suyns8d\nbzFZHI0CU6c7huG8TWEGu7FnxYnIc7syi6728cjmJwe70E01sOeUMdiFbqc/7M5QVH7uzniL\nSTPZVx06YUhvz0e3FAt2O14Ze8011zywZl/R1dJ3ThCRsy4t6Of6uj0AQDfVrrEr8VRsgNe1\n66X92RZH4ye61iz6coujxZPnJvl9rqd2ZJR202ddPSbE0azX9ym7Sftr1f35x29TmPLcr5pm\n+feo5iFq9q/jFJE+145dtXFrnl9EJMrZdvLkyQ+Mv/o0r/A9+u0hc1TS7AtrnzBbs9xxQ0MR\neW3dCVfI9X/6mhNfbprwdGcR+Wr2Nl1bD6XBdfdZtaJNsla3mOTEmzaKHUMD3yave8/8v7Js\ncd3/1TC26PzOD11XqqaWR8/RraRDWrrOEJD5178z8n0Jjab1S3IUnV/vkmfr2sxF5zQePOfd\nd9+d2avwkeDuo3venrf6hFfp6vYAAN1UC3Zhysv6yuv32xP7WbTii5r2rCkif25JL23NxA6J\nIZZaos+Z2iwx79j3s3Znisixfc9+cCQ3ocmkC+OtIV41ae3/9WqasPuj+Zd3axUTV/P8nleN\nnzrni+1pp1vf69q1y5Xv9Ry2m7Riujy7RUQyt55wb8RVNaOLVajWtoeIZP66XcfWQ6vesXqJ\n6xQ7hga+Te6MdR6/35bYq9h8e0LxOaGbWh49R7fQh7S0nSHg2B87RCS5W5di8zVT9A1JxXtL\nfs7uJXOnDb/p2pTObevXTLBXazDy6V+KrqCv2wMAdLNUdgMqy2kf76GZNRHx5YV81ob/FEst\njhIO5g0zOt9/3eql0354+MULf5g6X0RSnhoa+iUxDa5c8+uBbz5+5/1Vn3z+5YZvPv9w06cf\nzJl635UT335v5imGzfx+j4hY7A0njB14yoK1zk8uOmk6KZ1oJquI+H15OrYemsla8v8iTjqG\nZXibTnyP/D6XiGhSfIc1zSwnCdlU43uObqEPaWk7Q4AWpYnIScdJRKRa1AmbO/L94s4X3b7z\nmCepaYeLu3S+8IpBTZqd07rRZ53Pn110NR3dHgCgWxUNdtbY882a5jq62itS7A/7zs8OiEid\n1gkhXu7J1fMdnfUvfcpu+u/u5Q/7Xlg7/vWd5qjqz15Sr+SXadZOfQd16jtIRLy5B9e+vXjw\niEc+mNX/1XHZNyU7iq1rsTdOjjKn+XJmPvbYqf40F/fBgZwe8baic9K3fioizvotdGzdcGV5\nm4q9R9aYjiLiSv+fyJSi810Zn1ZYk05uVbkqbWcIiGnYSuTjQxu/Fbmg2KI1J35L7B2Xjd15\nzDPu1W9mD+oYnJm5++tir9LZ7QEAulTRU7Fme+MhNaPzc3fc/9WBovPzc3+75/vDmsk6vvkJ\n5wSzD5zwJ23fxzN1bDRwWsqd8cXUT+/dlJVXq/u8+rZTDBcF5Rxc2rRp0/O63FPYbEeNS1If\nnNc00e/3f3LK72LXou5vnuDNO/jQ1wdPXOC7s03j2rVrv3fkhFctH//hiav5nxmzQUTaj2+l\nZ+tGK9XbFPo9ioppd31StDvji0V/ZRWd/92sN8uvSSW2qnyVsjMExNYbVy3KlP7Hg5+cuDTt\n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\nv258lN60oUOHPrOn1OfzVZWuGzp0aEFN3bH/S967fh2jxiifz3fd8OQFP14SI4clz80/9gPg\nKwo+TB5+vSVRDcforS39YsGrt40YfvM9j7y9+PO9hf79CeqN8vl8o4Ynv5N39Lgqi78YOnTo\nweqj57/84Hy/jlFj1Jirhs3NO3a2j+S+NXzEXfW/Lt0z66oR91oSBWPYccdO7NLYUQ53mw5d\n23QQFiVVWPPWnZv/9CFHSNfeiV17WxOld11PY5rb6aisOfpsVrOz+iQNOO5ZEG+VcvrxrUBj\nVGTb3g+lzPps9t8evevBUfdNvKb/0VszhIaFhYf7/QWlN61eSHhHl8NRcdytDZW3zuFqSpqW\nqL4xYZu+PnTNH9oppRJi3D/sLVetji7Dle3e5nK3sSSqgcMVc/E1tw8cevXnS5d+9sk/FryZ\n0rx1x27duk2873ZLomJDnAWFVSo+UilVc3i/Uqqg1usJdSqlaisLna5mlkSFOx0VlXUNH3pr\na3w1JfW/doa4vTUFlkTBGEF/M7OmOSPx7lahrrCYE7MqCgYYk3haxl+fXLZ6S37R0fuODv/L\nIxHb50yY+XF+Wa2FaSPOjP3Xs69n7S2oqvNFxl99z5/61j/urTm0ePqKqDbJlkQppRzOiMtu\nfviVScNXzRg/MWX+oZqAbqGtMW3rq9Nfnvnm4mVf9msZNnX2mvoH6yoPzp36r2ZdGvuytfao\n0Xf/YfPL978495Otu3KuH3fF5uef+XTD1oJDeVtWffjYs5kdrrjNkqifcblbDbn2lqkz5/79\n6Yev6NeldPfXVkWN7dtq5V+fWvxZesbn/3x20ofxHaJTZi4vr/PVlue8Ozmt+Vl+nHyNUWMS\nPMsff3HTvmKlVFl+9utPr4g5c6RSqmTnVzOe/CS2szVRMIYdd+zqCVwak7n8JzNKbDGN63p6\n02rKsiY/9My63SVnj5vx/H+1q38wf+3UeyavrA3vMP7F5/o3evVbY9Tx6qpy30uZvPS7sMrC\n726f/cGVgT0FHmDav5d9lJubk5ubm5uXl5uTW1YTvWTRbKXUY3+89ltnh0dffqZns8a+sUBj\nVL3dmYteemt+dt6R4x90uWMHDht7z+jBIf6sz+qKatgj9OP/ffKjlFK+2qIPXpryUWbW4Wpn\n98FjHr8j8elbx31Vqpy+and8z8emP3pOo9+5ojGqrvrA9IkT074vdrlD6qprw1ueOynliR7N\n3Mtuv2FxXN+Jj911ZkRjn/bWGAVj2HewE0jmHeNkRkkuppSqKs7dW+Dr3Pm492D6ard9tW7b\n3tz/HubHprzuNF/uD9mlMR26/jh4Hf5hRdqOiP6/v7Cl299/lmiM+ons1A9Ss4uSbrzl3EgN\nfyHpSqs8XBQeE6eUWp26puuAC1sG8INbdEUV7Nu550D+kaoqp8sd0yK+Y5czY/x9S5S+qLVr\n18b16NM1QsO/kzVGHeOrq/Y63S6HUqquMjcjfYMvpk2vC3vFNeGM6Yry1e3cumXXnryIVu3O\n63lOtMuhlKooKo+I8/9uQRqjYAQGO1n2/urGnl+v7RofJbkYAACW4ElaWc5IvLtVaGpYTExM\nTKBvxTA+SnIxAAAswQ2KhXE4z2gWdUaXs+NCAn5fi/FRkosBAGAFXooFAAAwBE9OAAAAGILB\nDgAAwBAMdgAAAIZgsAMAADAEgx0AAIAhGOwAAAAMwWAHAABgCAY7AAAAQzDYAQAAGILBDgAA\nwBAMdgAAAIZgsAMAADAEgx0AAIAhGOwAAAAMwWAHAABgCAY7AAAAQzDYAQAAGILBDgAAwBAM\ndgAAAIZgsAMAADAEgx0AAIAhGOwAAAAMwWAHAABgCAY7AAAAQzDYAQAAGILBDgAAwBAMdgAA\nAIZgsAMAADAEgx0AAIAhGOwAAAAMwWAHAABgCAY7AAAAQzDYAQAAGOL/AZXQSuNfeODLAAAA\nAElFTkSuQmCC"
+     },
+     "metadata": {
+      "image/png": {
+       "height": 420,
+       "width": 420
+      }
+     },
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "hourly_calories <- read.csv(\"/kaggle/input/fitbit/Fitabase Data 4.12.16-5.12.16/hourlyCalories_merged.csv\")\n",
+    "\n",
+    "hourly_calories <- as_tibble(hourly_calories)\n",
+    "#hourly_steps <- hourly_steps %>%   \n",
+    "   #rename(hour = ActivityHour ,total_steps = StepTotal) %>%\n",
+    "   #separate(hour, c('date', 'hour'), \" \")\n",
+    "\n",
+    "hourly_calories <- hourly_calories %>%   \n",
+    "   rename(hour = ActivityHour ,calories = Calories) %>%\n",
+    "   separate(hour, c('date', 'hour', 'pm'), \" \") %>%\n",
+    "   mutate(hours = paste(hour, pm))\n",
+    "\n",
+    "\n",
+    "summary_hourly_calories <- hourly_calories %>% group_by(hours) %>%\n",
+    "                         summarize(mean_calories = mean(calories , na.rm = TRUE)) %>%\n",
+    "                         arrange(hours) %>%\n",
+    "                            ggplot() +\n",
+    "  geom_col(aes(x=hours, y = mean_calories, fill = mean_calories)) + \n",
+    "  labs(title = \"Hourly steps throughout the day\", x=\"\", y=\"\") + \n",
+    "  scale_fill_gradient(low = \"green\", high = \"red\")+\n",
+    "  theme(axis.text.x = element_text(angle = 90))\n",
+    "\n",
+    "summary_hourly_calories\n",
+    "\n",
+    "head(hourly_calories)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "3cf2a922",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-01-19T16:01:00.108458Z",
+     "iopub.status.busy": "2023-01-19T16:01:00.106948Z",
+     "iopub.status.idle": "2023-01-19T16:01:00.125662Z",
+     "shell.execute_reply": "2023-01-19T16:01:00.123903Z"
+    },
+    "papermill": {
+     "duration": 0.047747,
+     "end_time": "2023-01-19T16:01:00.128459",
+     "exception": false,
+     "start_time": "2023-01-19T16:01:00.080712",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "hours_factor <- as_factor(hourly_calories$hours)\n",
+    "\n",
+    "levels(hours_factor) <- c(\"12:00:00 AM\",\"1:00:00 AM\",\"2:00:00 AM\",\"3:00:00 AM\",\"4:00:00 AM\",\"5:00:00 AM\",\n",
+    "                        \"6:00:00 AM\",\"7:00:00 AM\",\"8:00:00 AM\",\"9:00:00 AM\",\"10:00:00 AM\",\"11:00:00 AM\",\"12:00:00 PM\",\n",
+    "                        \"1:00:00 PM\",\"2:00:00 PM\",\"3:00:00 PM\",\"4:00:00 PM\",\"5:00:00 PM\",\"6:00:00 PM\",\n",
+    "                        \"7:00:00 PM\",\"8:00:00 PM\",\"9:00:00 PM\",\"10:00:00 PM\",\"11:00:00 PM\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "5937d71e",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-01-19T16:01:00.178720Z",
+     "iopub.status.busy": "2023-01-19T16:01:00.177056Z",
+     "iopub.status.idle": "2023-01-19T16:01:00.199612Z",
+     "shell.execute_reply": "2023-01-19T16:01:00.197314Z"
+    },
+    "papermill": {
+     "duration": 0.05054,
+     "end_time": "2023-01-19T16:01:00.202002",
+     "exception": false,
+     "start_time": "2023-01-19T16:01:00.151462",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "hourly_calories_edit <-  hourly_calories %>% mutate(hours = as_factor(hours))\n",
+    "\n",
+    "levels(hourly_calories_edit$hours) <- c(\"12:00:00 AM\",\"1:00:00 AM\",\"2:00:00 AM\",\"3:00:00 AM\",\"4:00:00 AM\",\"5:00:00 AM\",\n",
+    "                        \"6:00:00 AM\",\"7:00:00 AM\",\"8:00:00 AM\",\"9:00:00 AM\",\"10:00:00 AM\",\"11:00:00 AM\",\"12:00:00 PM\",\n",
+    "                        \"1:00:00 PM\",\"2:00:00 PM\",\"3:00:00 PM\",\"4:00:00 PM\",\"5:00:00 PM\",\"6:00:00 PM\",\n",
+    "                        \"7:00:00 PM\",\"8:00:00 PM\",\"9:00:00 PM\",\"10:00:00 PM\",\"11:00:00 PM\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "34d4b63c",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-01-19T16:01:00.253220Z",
+     "iopub.status.busy": "2023-01-19T16:01:00.251511Z",
+     "iopub.status.idle": "2023-01-19T16:01:00.279555Z",
+     "shell.execute_reply": "2023-01-19T16:01:00.277673Z"
+    },
+    "papermill": {
+     "duration": 0.056588,
+     "end_time": "2023-01-19T16:01:00.282155",
+     "exception": false,
+     "start_time": "2023-01-19T16:01:00.225567",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "summary_hourly_calories <- hourly_calories_edit%>% group_by(hours) %>%\n",
+    "                         summarize(mean_calories = mean(calories , na.rm = TRUE)) %>%\n",
+    "                         arrange(hours) %>%\n",
+    "                            ggplot() +\n",
+    "  geom_col(aes(x=hours, y = mean_calories, fill = mean_calories)) + \n",
+    "  labs(title = \"Hourly steps throughout the day\", x=\"\", y=\"\") + \n",
+    "  scale_fill_gradient(low = \"green\", high = \"red\")+\n",
+    "  theme(axis.text.x = element_text(angle = 90))"
+   ]
   }
  ],
  "metadata": {
@@ -2632,14 +2327,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 11.744164,
-   "end_time": "2022-12-08T20:06:47.136183",
+   "duration": 12.731342,
+   "end_time": "2023-01-19T16:01:00.426537",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2022-12-08T20:06:35.392019",
+   "start_time": "2023-01-19T16:00:47.695195",
    "version": "2.4.0"
   }
  },
